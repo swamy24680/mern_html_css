@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+
+            margin-top: 200px;
+            margin-bottom: auto;
+            margin-left: auto; 
+            margin-right: auto;
+            padding: 10px;
+            width: 600px;
+        }
+        input[type = text] {
+   
+           padding: 10px 15px;
+           margin: 5px 100px;
+           box-sizing: border-box;
+        }
+        input[type = password] {
+   
+        padding: 10px 5px;
+        margin: 5px 100px;
+        box-sizing: border-box;
+        }
+      
+        input[type = number] {
+        
+        padding: 10px 10px;
+        margin: 5px 130px;
+        box-sizing: border-box;
+        }
+        select {
+        
+        padding: 5px ;
+        margin: 5px 120px;
+        box-sizing: border-box;
+        }
+
+     </style>
+</head>
+<body>
+    <form>  
+  
+        <label> Firstname </label>         
+        <input type="text" name="firstname" size="15"/> <br> <br>  
+        
+        <label> Username </label>         
+        <input type="text" name="Username" size="15"/> <br> <br>  
+        Password:  
+        <input type="Password" id="pass" name="pass"> <br>   
+        <br> <br>  
+        RePassword:  
+        <input type="Password" id="repass" name="repass"> <br> <br>  
+
+      
+      
+        <label>    Address  </label>   
+        <input type="text" name="firstname" size="15"/> <br> <br>  
+    
+        <br> 
+        Age:  
+        <input type="number" name="age" size="2"/> <br>    
+        <br> <br>  
+            
+        <label>   
+        Gender:  
+        </label>   
+        <select>  
+        <option value="Male">Male</option>  
+        <option value="Female">Female</option>  
+        <option value="Others">Others</option>  
+        
+        </select>  
+        
+        <br>  
+        <br>  
+        <label>   
+            Languages known:  
+            </label>   
+            <input type="checkbox" id="sample" name="check_the_box" value="AN_CHECKBOX">
+            <label for="sample">English</label>
+            <input type="checkbox" id="sample" name="check_the_box" value="AN_CHECKBOX">
+            <label for="sample">Kannada</label>
+            <input type="checkbox" id="sample" name="check_the_box" value="AN_CHECKBOX">
+            <label for="sample">Hindi</label>
+            <input type="checkbox" id="sample" name="check_the_box" value="AN_CHECKBOX">
+            <label for="sample">Telugu</label>
+            <br>
+
+            <br>
+            
+        <input type="button" value="Save"/>  
+        </form>  
+    
+</body>
+</html>
